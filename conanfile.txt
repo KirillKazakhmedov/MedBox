@@ -1,0 +1,12 @@
+[requires]
+Boost/1.64.0@inexorgame/stable
+zlib/1.2.11@conan/stable
+
+[options]
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin
